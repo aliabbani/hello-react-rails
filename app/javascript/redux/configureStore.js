@@ -1,14 +1,12 @@
 import { applyMiddleware, createStore } from "redux";
 
 import thunk from "redux-thunk";
-// import { composeWithDevTools } from 'redux-devtools-extension';
 
 const initialState = {
     greetings: []
 };
 
 function rootReducer(state, action) {
-    // console.log(action.type);
     switch (action.type) {
       case "GET_GREETINGS_SUCCESS":
         return { 

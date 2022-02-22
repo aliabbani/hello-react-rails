@@ -1,5 +1,4 @@
 import React from "react"
-// import PropTypes from "prop-types"
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
@@ -47,7 +46,4 @@ const structuredSelector = createStructuredSelector({
 
 const mapDispatchToProps = { getGreetings };
 
-// Greeting.propTypes = {
-//   greeting: PropTypes.string,
-// };
 export default connect(structuredSelector, mapDispatchToProps)(Greeting);

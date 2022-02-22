@@ -17,7 +17,6 @@ class App extends React.Component {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Greeting title={'first greeting page path'} />} />
-          {/* <Route path='/greeting' element={<Greeting title={'greeting greeting page path'} />} /> */}
         </Routes>
       </BrowserRouter>
     </Provider>
